@@ -65,9 +65,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_A0E97C45AD804A459D4DC78BF7A0D94F }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_664FC7891FD1426E989FC966E3A57137 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_3C41DD637DE7436B84109C1664E0A7C2 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_6E1E6E3F6ECE431CB637D7EB969E9ABE }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_7751EA208AE94F63BCD76DAEDFAC02EB }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_E6EC5A58565240E789F5780F925337E4 }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
@@ -75,5 +75,4 @@ jobs:
         with:
           app-name: 'wine-quality'
           slot-name: 'Production'
-
           
