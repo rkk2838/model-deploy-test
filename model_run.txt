@@ -1,0 +1,230 @@
+[<Run: data=<RunData: metrics={'Accuracy': 0.9125, 'Precision': 0.9125, 'Recall': 0.569078947368421}, params={}, tags={'Author': 'Rkk',
+  'Version_run': '4',
+  'mlflow.log-model.history': '[{"run_id": "ebaa8106e4124e93aecf6b3879528c06", '
+                              '"artifact_path": "Classification-Model", '
+                              '"utc_time_created": "2024-05-18 '
+                              '14:52:25.221868", "flavors": {"python_function": '
+                              '{"model_path": "model.pkl", "predict_fn": '
+                              '"predict", "loader_module": "mlflow.sklearn", '
+                              '"python_version": "3.12.3", "env": {"conda": '
+                              '"conda.yaml", "virtualenv": "python_env.yaml"}}, '
+                              '"sklearn": {"pickled_model": "model.pkl", '
+                              '"sklearn_version": "1.4.2", '
+                              '"serialization_format": "cloudpickle", "code": '
+                              'null}}, "model_uuid": '
+                              '"5394f48cd2314022b86b61dd23bb8eec", '
+                              '"mlflow_version": "2.12.2", "model_size_bytes": '
+                              '15067}]',
+  'mlflow.runName': 'fun-mole-236',
+  'mlflow.source.name': '/Users/ravikantkumar/anaconda3/envs/test_env/lib/python3.12/site-packages/ipykernel_launcher.py',
+  'mlflow.source.type': 'LOCAL',
+  'mlflow.user': 'ravikantkumar',
+  'model_type': 'DecisionTreeClassifier'}>, info=<RunInfo: artifact_uri='/Users/ravikantkumar/myspace/model_testing/mlruns/179020510512775425/ebaa8106e4124e93aecf6b3879528c06/artifacts', end_time=1716043946365, experiment_id='179020510512775425', lifecycle_stage='active', run_id='ebaa8106e4124e93aecf6b3879528c06', run_name='fun-mole-236', run_uuid='ebaa8106e4124e93aecf6b3879528c06', start_time=1716043945217, status='FINISHED', user_id='ravikantkumar'>, inputs=<RunInputs: dataset_inputs=[]>>,
+ <Run: data=<RunData: metrics={'Accuracy': 0.9125, 'Precision': 0.9125, 'Recall': 0.569078947368421}, params={}, tags={'mlflow.log-model.history': '[{"run_id": "3c27eb120f104893a0e9736b11204a65", '
+                              '"artifact_path": "Classification-Model", '
+                              '"utc_time_created": "2024-05-18 '
+                              '14:51:11.098089", "flavors": {"python_function": '
+                              '{"model_path": "model.pkl", "predict_fn": '
+                              '"predict", "loader_module": "mlflow.sklearn", '
+                              '"python_version": "3.12.3", "env": {"conda": '
+                              '"conda.yaml", "virtualenv": "python_env.yaml"}}, '
+                              '"sklearn": {"pickled_model": "model.pkl", '
+                              '"sklearn_version": "1.4.2", '
+                              '"serialization_format": "cloudpickle", "code": '
+                              'null}}, "model_uuid": '
+                              '"5453439c3192485b94d7cf4bdac411e6", '
+                              '"mlflow_version": "2.12.2", "model_size_bytes": '
+                              '15067}]',
+  'mlflow.runName': 'agreeable-gull-16',
+  'mlflow.source.name': '/Users/ravikantkumar/anaconda3/envs/test_env/lib/python3.12/site-packages/ipykernel_launcher.py',
+  'mlflow.source.type': 'LOCAL',
+  'mlflow.user': 'ravikantkumar'}>, info=<RunInfo: artifact_uri='/Users/ravikantkumar/myspace/model_testing/mlruns/179020510512775425/3c27eb120f104893a0e9736b11204a65/artifacts', end_time=1716043872144, experiment_id='179020510512775425', lifecycle_stage='active', run_id='3c27eb120f104893a0e9736b11204a65', run_name='agreeable-gull-16', run_uuid='3c27eb120f104893a0e9736b11204a65', start_time=1716043871094, status='FINISHED', user_id='ravikantkumar'>, inputs=<RunInputs: dataset_inputs=[]>>,
+ <Run: data=<RunData: metrics={'Accuracy': 0.91875, 'Precision': 0.91875, 'Recall': 0.6019736842105263}, params={}, tags={'mlflow.log-model.history': '[{"run_id": "77b6bb6a5a284f6897833630b7cf2e80", '
+                              '"artifact_path": "Classification-Model", '
+                              '"utc_time_created": "2024-05-18 '
+                              '14:49:48.136777", "flavors": {"python_function": '
+                              '{"model_path": "model.pkl", "predict_fn": '
+                              '"predict", "loader_module": "mlflow.sklearn", '
+                              '"python_version": "3.12.3", "env": {"conda": '
+                              '"conda.yaml", "virtualenv": "python_env.yaml"}}, '
+                              '"sklearn": {"pickled_model": "model.pkl", '
+                              '"sklearn_version": "1.4.2", '
+                              '"serialization_format": "cloudpickle", "code": '
+                              'null}}, "model_uuid": '
+                              '"d6d1021012ce441193a35ef59a0a045b", '
+                              '"mlflow_version": "2.12.2", "model_size_bytes": '
+                              '15227}]',
+  'mlflow.runName': 'legendary-lynx-609',
+  'mlflow.source.name': '/Users/ravikantkumar/anaconda3/envs/test_env/lib/python3.12/site-packages/ipykernel_launcher.py',
+  'mlflow.source.type': 'LOCAL',
+  'mlflow.user': 'ravikantkumar'}>, info=<RunInfo: artifact_uri='/Users/ravikantkumar/myspace/model_testing/mlruns/179020510512775425/77b6bb6a5a284f6897833630b7cf2e80/artifacts', end_time=1716043789695, experiment_id='179020510512775425', lifecycle_stage='active', run_id='77b6bb6a5a284f6897833630b7cf2e80', run_name='legendary-lynx-609', run_uuid='77b6bb6a5a284f6897833630b7cf2e80', start_time=1716043788129, status='FINISHED', user_id='ravikantkumar'>, inputs=<RunInputs: dataset_inputs=[]>>,
+ <Run: data=<RunData: metrics={'Accuracy': 0.909375, 'Precision': 0.909375, 'Recall': 0.5674342105263157}, params={}, tags={'mlflow.log-model.history': '[{"run_id": "e869a66b030145e29cc2a522b1585608", '
+                              '"artifact_path": "Classification-Model", '
+                              '"utc_time_created": "2024-05-18 '
+                              '14:44:47.934474", "flavors": {"python_function": '
+                              '{"model_path": "model.pkl", "predict_fn": '
+                              '"predict", "loader_module": "mlflow.sklearn", '
+                              '"python_version": "3.12.3", "env": {"conda": '
+                              '"conda.yaml", "virtualenv": "python_env.yaml"}}, '
+                              '"sklearn": {"pickled_model": "model.pkl", '
+                              '"sklearn_version": "1.4.2", '
+                              '"serialization_format": "cloudpickle", "code": '
+                              'null}}, "model_uuid": '
+                              '"0aed46fbfaf146dc9ddb2e3e32a2eb91", '
+                              '"mlflow_version": "2.12.2", "model_size_bytes": '
+                              '15067}]',
+  'mlflow.runName': 'stately-yak-470',
+  'mlflow.source.name': '/Users/ravikantkumar/anaconda3/envs/test_env/lib/python3.12/site-packages/ipykernel_launcher.py',
+  'mlflow.source.type': 'LOCAL',
+  'mlflow.user': 'ravikantkumar'}>, info=<RunInfo: artifact_uri='/Users/ravikantkumar/myspace/model_testing/mlruns/179020510512775425/e869a66b030145e29cc2a522b1585608/artifacts', end_time=1716043489187, experiment_id='179020510512775425', lifecycle_stage='active', run_id='e869a66b030145e29cc2a522b1585608', run_name='stately-yak-470', run_uuid='e869a66b030145e29cc2a522b1585608', start_time=1716043487929, status='FINISHED', user_id='ravikantkumar'>, inputs=<RunInputs: dataset_inputs=[]>>,
+ <Run: data=<RunData: metrics={'Accuracy': 0.9125, 'Precision': 0.9125, 'Recall': 0.569078947368421}, params={}, tags={'mlflow.log-model.history': '[{"run_id": "a5896db75c1a4fea804ddcd5eb41a1dd", '
+                              '"artifact_path": "Classification-Model", '
+                              '"utc_time_created": "2024-05-17 '
+                              '15:35:27.190344", "flavors": {"python_function": '
+                              '{"model_path": "model.pkl", "predict_fn": '
+                              '"predict", "loader_module": "mlflow.sklearn", '
+                              '"python_version": "3.12.3", "env": {"conda": '
+                              '"conda.yaml", "virtualenv": "python_env.yaml"}}, '
+                              '"sklearn": {"pickled_model": "model.pkl", '
+                              '"sklearn_version": "1.4.2", '
+                              '"serialization_format": "cloudpickle", "code": '
+                              'null}}, "model_uuid": '
+                              '"02325842c7e2484895bb296edfa271ae", '
+                              '"mlflow_version": "2.12.2", "model_size_bytes": '
+                              '15227}]',
+  'mlflow.runName': 'victorious-dove-530',
+  'mlflow.source.name': '/Users/ravikantkumar/anaconda3/envs/test_env/lib/python3.12/site-packages/ipykernel_launcher.py',
+  'mlflow.source.type': 'LOCAL',
+  'mlflow.user': 'ravikantkumar'}>, info=<RunInfo: artifact_uri='/Users/ravikantkumar/myspace/model_testing/mlruns/179020510512775425/a5896db75c1a4fea804ddcd5eb41a1dd/artifacts', end_time=1715960128807, experiment_id='179020510512775425', lifecycle_stage='active', run_id='a5896db75c1a4fea804ddcd5eb41a1dd', run_name='victorious-dove-530', run_uuid='a5896db75c1a4fea804ddcd5eb41a1dd', start_time=1715960127183, status='FINISHED', user_id='ravikantkumar'>, inputs=<RunInputs: dataset_inputs=[]>>,
+ <Run: data=<RunData: metrics={'Accuracy': 0.9125, 'Precision': 0.9125, 'Recall': 0.569078947368421}, params={}, tags={'mlflow.log-model.history': '[{"run_id": "0ffda137ffe3456eac179b295d3c6cd4", '
+                              '"artifact_path": "Classification-Model", '
+                              '"utc_time_created": "2024-05-17 '
+                              '15:02:23.372844", "flavors": {"python_function": '
+                              '{"model_path": "model.pkl", "predict_fn": '
+                              '"predict", "loader_module": "mlflow.sklearn", '
+                              '"python_version": "3.12.3", "env": {"conda": '
+                              '"conda.yaml", "virtualenv": "python_env.yaml"}}, '
+                              '"sklearn": {"pickled_model": "model.pkl", '
+                              '"sklearn_version": "1.4.2", '
+                              '"serialization_format": "cloudpickle", "code": '
+                              'null}}, "model_uuid": '
+                              '"5e47811b937e4f9e9791c7198c4a4881", '
+                              '"mlflow_version": "2.12.2", "model_size_bytes": '
+                              '15227}]',
+  'mlflow.runName': 'bright-mule-129',
+  'mlflow.source.name': '/Users/ravikantkumar/anaconda3/envs/test_env/lib/python3.12/site-packages/ipykernel_launcher.py',
+  'mlflow.source.type': 'LOCAL',
+  'mlflow.user': 'ravikantkumar'}>, info=<RunInfo: artifact_uri='/Users/ravikantkumar/myspace/model_testing/mlruns/179020510512775425/0ffda137ffe3456eac179b295d3c6cd4/artifacts', end_time=1715958144418, experiment_id='179020510512775425', lifecycle_stage='active', run_id='0ffda137ffe3456eac179b295d3c6cd4', run_name='bright-mule-129', run_uuid='0ffda137ffe3456eac179b295d3c6cd4', start_time=1715958143364, status='FINISHED', user_id='ravikantkumar'>, inputs=<RunInputs: dataset_inputs=[]>>,
+ <Run: data=<RunData: metrics={'Accuracy': 0.9125, 'Precision': 0.9125, 'Recall': 0.569078947368421}, params={}, tags={'mlflow.log-model.history': '[{"run_id": "e311ab94b22f420cbb1ef0686ed65e27", '
+                              '"artifact_path": "Classification-Model", '
+                              '"utc_time_created": "2024-05-17 '
+                              '15:02:04.598869", "flavors": {"python_function": '
+                              '{"model_path": "model.pkl", "predict_fn": '
+                              '"predict", "loader_module": "mlflow.sklearn", '
+                              '"python_version": "3.12.3", "env": {"conda": '
+                              '"conda.yaml", "virtualenv": "python_env.yaml"}}, '
+                              '"sklearn": {"pickled_model": "model.pkl", '
+                              '"sklearn_version": "1.4.2", '
+                              '"serialization_format": "cloudpickle", "code": '
+                              'null}}, "model_uuid": '
+                              '"e3533e234bf14bf9b911d869d5ab8a43", '
+                              '"mlflow_version": "2.12.2", "model_size_bytes": '
+                              '15227}]',
+  'mlflow.runName': 'blushing-ram-226',
+  'mlflow.source.name': '/Users/ravikantkumar/anaconda3/envs/test_env/lib/python3.12/site-packages/ipykernel_launcher.py',
+  'mlflow.source.type': 'LOCAL',
+  'mlflow.user': 'ravikantkumar'}>, info=<RunInfo: artifact_uri='/Users/ravikantkumar/myspace/model_testing/mlruns/179020510512775425/e311ab94b22f420cbb1ef0686ed65e27/artifacts', end_time=1715958125783, experiment_id='179020510512775425', lifecycle_stage='active', run_id='e311ab94b22f420cbb1ef0686ed65e27', run_name='blushing-ram-226', run_uuid='e311ab94b22f420cbb1ef0686ed65e27', start_time=1715958124587, status='FAILED', user_id='ravikantkumar'>, inputs=<RunInputs: dataset_inputs=[]>>,
+ <Run: data=<RunData: metrics={'Accuracy': 0.9125}, params={}, tags={'mlflow.log-model.history': '[{"run_id": "2014c1a1ad794f8383931ea381e6dc51", '
+                              '"artifact_path": "Classification-Model", '
+                              '"utc_time_created": "2024-05-17 '
+                              '14:48:29.659880", "flavors": {"python_function": '
+                              '{"model_path": "model.pkl", "predict_fn": '
+                              '"predict", "loader_module": "mlflow.sklearn", '
+                              '"python_version": "3.12.3", "env": {"conda": '
+                              '"conda.yaml", "virtualenv": "python_env.yaml"}}, '
+                              '"sklearn": {"pickled_model": "model.pkl", '
+                              '"sklearn_version": "1.4.2", '
+                              '"serialization_format": "cloudpickle", "code": '
+                              'null}}, "model_uuid": '
+                              '"d13269a50af34fbab643eeb999fcf7f1", '
+                              '"mlflow_version": "2.12.2", "model_size_bytes": '
+                              '15227}]',
+  'mlflow.runName': 'sneaky-owl-961',
+  'mlflow.source.name': '/Users/ravikantkumar/anaconda3/envs/test_env/lib/python3.12/site-packages/ipykernel_launcher.py',
+  'mlflow.source.type': 'LOCAL',
+  'mlflow.user': 'ravikantkumar'}>, info=<RunInfo: artifact_uri='/Users/ravikantkumar/myspace/model_testing/mlruns/179020510512775425/2014c1a1ad794f8383931ea381e6dc51/artifacts', end_time=1715957310843, experiment_id='179020510512775425', lifecycle_stage='active', run_id='2014c1a1ad794f8383931ea381e6dc51', run_name='sneaky-owl-961', run_uuid='2014c1a1ad794f8383931ea381e6dc51', start_time=1715957309652, status='FAILED', user_id='ravikantkumar'>, inputs=<RunInputs: dataset_inputs=[]>>,
+ <Run: data=<RunData: metrics={'Accuracy': 0.9125}, params={}, tags={'mlflow.log-model.history': '[{"run_id": "c0f4e6a7fba0421c8fefd9959119bb1d", '
+                              '"artifact_path": "Classification-Model", '
+                              '"utc_time_created": "2024-05-17 '
+                              '14:46:43.888680", "flavors": {"python_function": '
+                              '{"model_path": "model.pkl", "predict_fn": '
+                              '"predict", "loader_module": "mlflow.sklearn", '
+                              '"python_version": "3.12.3", "env": {"conda": '
+                              '"conda.yaml", "virtualenv": "python_env.yaml"}}, '
+                              '"sklearn": {"pickled_model": "model.pkl", '
+                              '"sklearn_version": "1.4.2", '
+                              '"serialization_format": "cloudpickle", "code": '
+                              'null}}, "model_uuid": '
+                              '"626e1800f4e743878591b63516b700bd", '
+                              '"mlflow_version": "2.12.2", "model_size_bytes": '
+                              '15227}]',
+  'mlflow.runName': 'trusting-skink-627',
+  'mlflow.source.name': '/Users/ravikantkumar/anaconda3/envs/test_env/lib/python3.12/site-packages/ipykernel_launcher.py',
+  'mlflow.source.type': 'LOCAL',
+  'mlflow.user': 'ravikantkumar'}>, info=<RunInfo: artifact_uri='/Users/ravikantkumar/myspace/model_testing/mlruns/179020510512775425/c0f4e6a7fba0421c8fefd9959119bb1d/artifacts', end_time=1715957205159, experiment_id='179020510512775425', lifecycle_stage='active', run_id='c0f4e6a7fba0421c8fefd9959119bb1d', run_name='trusting-skink-627', run_uuid='c0f4e6a7fba0421c8fefd9959119bb1d', start_time=1715957203881, status='FAILED', user_id='ravikantkumar'>, inputs=<RunInputs: dataset_inputs=[]>>,
+ <Run: data=<RunData: metrics={'Accuracy': 0.9125}, params={}, tags={'mlflow.log-model.history': '[{"run_id": "4de1e926c4234841ac13207e250b0a7f", '
+                              '"artifact_path": "Classification-Model", '
+                              '"utc_time_created": "2024-05-17 '
+                              '14:45:03.111594", "flavors": {"python_function": '
+                              '{"model_path": "model.pkl", "predict_fn": '
+                              '"predict", "loader_module": "mlflow.sklearn", '
+                              '"python_version": "3.12.3", "env": {"conda": '
+                              '"conda.yaml", "virtualenv": "python_env.yaml"}}, '
+                              '"sklearn": {"pickled_model": "model.pkl", '
+                              '"sklearn_version": "1.4.2", '
+                              '"serialization_format": "cloudpickle", "code": '
+                              'null}}, "model_uuid": '
+                              '"ba2e196850b2485baf337299a8d884af", '
+                              '"mlflow_version": "2.12.2", "model_size_bytes": '
+                              '15227}]',
+  'mlflow.runName': 'loud-wasp-190',
+  'mlflow.source.name': '/Users/ravikantkumar/anaconda3/envs/test_env/lib/python3.12/site-packages/ipykernel_launcher.py',
+  'mlflow.source.type': 'LOCAL',
+  'mlflow.user': 'ravikantkumar'}>, info=<RunInfo: artifact_uri='/Users/ravikantkumar/myspace/model_testing/mlruns/179020510512775425/4de1e926c4234841ac13207e250b0a7f/artifacts', end_time=1715957104162, experiment_id='179020510512775425', lifecycle_stage='active', run_id='4de1e926c4234841ac13207e250b0a7f', run_name='loud-wasp-190', run_uuid='4de1e926c4234841ac13207e250b0a7f', start_time=1715957103105, status='FAILED', user_id='ravikantkumar'>, inputs=<RunInputs: dataset_inputs=[]>>,
+ <Run: data=<RunData: metrics={'Accuracy': 0.9125}, params={}, tags={'mlflow.log-model.history': '[{"run_id": "3f9f2eb0089547d1abf2a12fd13035e3", '
+                              '"artifact_path": "Classification-Model", '
+                              '"utc_time_created": "2024-05-17 '
+                              '14:44:50.825333", "flavors": {"python_function": '
+                              '{"model_path": "model.pkl", "predict_fn": '
+                              '"predict", "loader_module": "mlflow.sklearn", '
+                              '"python_version": "3.12.3", "env": {"conda": '
+                              '"conda.yaml", "virtualenv": "python_env.yaml"}}, '
+                              '"sklearn": {"pickled_model": "model.pkl", '
+                              '"sklearn_version": "1.4.2", '
+                              '"serialization_format": "cloudpickle", "code": '
+                              'null}}, "model_uuid": '
+                              '"f6be4479a69142c1beebcba5efcaa198", '
+                              '"mlflow_version": "2.12.2", "model_size_bytes": '
+                              '15227}]',
+  'mlflow.runName': 'skillful-swan-800',
+  'mlflow.source.name': '/Users/ravikantkumar/anaconda3/envs/test_env/lib/python3.12/site-packages/ipykernel_launcher.py',
+  'mlflow.source.type': 'LOCAL',
+  'mlflow.user': 'ravikantkumar'}>, info=<RunInfo: artifact_uri='/Users/ravikantkumar/myspace/model_testing/mlruns/179020510512775425/3f9f2eb0089547d1abf2a12fd13035e3/artifacts', end_time=1715957092156, experiment_id='179020510512775425', lifecycle_stage='active', run_id='3f9f2eb0089547d1abf2a12fd13035e3', run_name='skillful-swan-800', run_uuid='3f9f2eb0089547d1abf2a12fd13035e3', start_time=1715957090817, status='FAILED', user_id='ravikantkumar'>, inputs=<RunInputs: dataset_inputs=[]>>]
+
+
+
+
+
+
+  ============
+  '[{"run_id": "ebaa8106e4124e93aecf6b3879528c06",
+   "artifact_path": "Classification-Model", 
+   "utc_time_created": "2024-05-18 14:52:25.221868", 
+  "flavors": {"python_function": {"model_path": "model.pkl", 
+  "predict_fn": "predict", "loader_module": "mlflow.sklearn", 
+  "python_version": "3.12.3", "env": {"conda": "conda.yaml", 
+  "virtualenv": "python_env.yaml"}}, 
+  "sklearn": {"pickled_model": "model.pkl", 
+  "sklearn_version": "1.4.2", "serialization_format": "cloudpickle", 
+  "code": null}}, 
+  "model_uuid": "5394f48cd2314022b86b61dd23bb8eec", "mlflow_version": "2.12.2", "model_size_bytes": 15067}]'
